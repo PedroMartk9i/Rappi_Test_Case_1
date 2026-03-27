@@ -1,0 +1,25 @@
+__pycache__/
+*.pyc
+*.pyo
+.env
+.venv/
+venv/
+
+# Raw scraping data (HTML samples, large files)
+data/raw/*.html
+data/raw/*.txt
+data/raw/*.json
+
+# Keep screenshots as evidence
+!data/raw/screenshot_*.png
+
+# Keep gitkeep files
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!reports/.gitkeep
+
+*.egg-info/
+dist/
+build/
+.idea/
+.vscode/
