@@ -109,8 +109,8 @@ def generate_demo_data() -> list[ScrapedItem]:
     for address in ADDRESSES:
         for product in PRODUCTS:
             for platform_id, pf in platform_factors.items():
-                # DiDi Food: 60% de probabilidad de no estar disponible (cerrado)
-                if platform_id == "didifood" and random.random() < 0.6:
+                # DiDi Food: menor cobertura en zonas populares (~20% no disponible)
+                if platform_id == "didifood" and address.zone_type == "popular" and random.random() < 0.2:
                     items.append(ScrapedItem(
                         platform=platform_id,
                         address_id=address.id,

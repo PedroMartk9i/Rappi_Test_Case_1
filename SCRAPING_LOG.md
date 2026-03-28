@@ -1,6 +1,6 @@
 # Log de Scraping Real — Competitive Intelligence
 
-## Fecha: 2026-03-27
+## Fechas: 2026-03-27 (Rappi, Uber Eats) / 2026-03-28 (DiDi Food corregido)
 ## Ubicación de prueba: Polanco, CDMX (19.4326, -99.1942)
 
 ---
@@ -11,7 +11,11 @@
 |:-----------|:--------------:|:-------------------:|:---------------:|:--------|
 | **Rappi** | 200 (SPA vacía, 4 bytes) | Carga página, 3 menciones McD | Parcial — requiere login | Login/signup obligatorio para ver menú |
 | **Uber Eats** | 200 (SPA vacía, 4 bytes) | Menú completo cargado | **Precios reales extraídos** | Cookie consent (resuelto) |
-| **DiDi Food** | 302 → forsale.dynadot.com | N/A | Ninguno | **Dominio en venta — servicio cerrado en México** |
+| **DiDi Food** | 200 (SPA vacía, 4 bytes) | Carga landing, detecta dirección | Parcial — requiere login | Login obligatorio para ver feed |
+
+> **CORRECCIÓN (2026-03-28):** El dominio correcto de DiDi Food es `didi-food.com` (con guión).
+> El dominio `didifood.com` (sin guión) es un dominio en venta que NO pertenece a DiDi.
+> DiDi Food opera activamente en México con 30M+ usuarios y 52K+ restaurantes.
 
 ---
 
@@ -83,26 +87,38 @@
 
 ### DiDi Food
 
-**Estrategias intentadas:**
-1. `Fetcher.get()` a `didifood.com/es-MX` → HTTP 302 redirect a `forsale.dynadot.com/didifood.com`
-2. URLs alternativas:
-   - `food.didiglobal.com/es-MX` → DNS resolution failed
-   - `page.didifood.com/es-MX` → DNS resolution failed
+> **CORRECCIÓN:** El dominio correcto es `didi-food.com` (con guión), NO `didifood.com`.
 
-**Hallazgo:** DiDi Food cerró operaciones en México en 2023. El dominio `didifood.com` está en venta. Esto es consistente con la información pública de que DiDi Global descontinuó su servicio de food delivery en varios mercados latinoamericanos.
+**Estrategias intentadas (2026-03-27 — dominio incorrecto):**
+1. `Fetcher.get()` a `didifood.com/es-MX` → HTTP 302 redirect a `forsale.dynadot.com` — dominio en venta, NO es de DiDi
 
-**Implicación para el proyecto:** DiDi Food no puede ser scrapeado porque no existe. El scraper está diseñado con detección automática de plataforma cerrada.
+**Estrategias intentadas (2026-03-28 — dominio correcto):**
+1. `Fetcher.get()` a `didi-food.com/es-MX` → HTTP 200, body: "None" (4 bytes). SPA pura, igual que Rappi y UE.
+2. Playwright Chromium → Landing page carga correctamente:
+   - Texto visible: "Entrega de comida hasta tu puerta"
+   - Input detectado: "Ingresar dirección de entrega"
+   - Geolocalización resolvió la dirección correctamente (Eugenio Sue 116, Polanco)
+3. Ingreso de dirección + click "Buscar comida" → **Redirige a login** (page.didiglobal.com)
+   - Formulario de login con teléfono (+52 México)
+   - Acepta inicio con contraseña o código de verificación
+
+**Hallazgo:** DiDi Food opera activamente en México (30M+ usuarios, 52K+ restaurantes, 60+ ciudades). Igual que Rappi, requiere cuenta para acceder al feed de restaurantes y precios.
+
+**Blocker:** Login obligatorio. Mismo patrón que Rappi.
+
+**Evidencia:** `data/raw/screenshot_didifood.png` (landing), `screenshot_didifood_feed.png` (login redirect)
 
 ---
 
 ## Hallazgos Técnicos
 
-1. **Ambas plataformas activas (Rappi, Uber Eats) son SPAs** — HTTP simple retorna body vacío (4 bytes "None"). Se requiere browser rendering.
+1. **Las 3 plataformas son SPAs** — HTTP simple retorna body vacío (4 bytes "None"). Se requiere browser rendering.
 2. **Scrapling's Fetcher** funciona para requests HTTP pero no puede renderizar SPAs. StealthyFetcher (Camoufox) requiere instalación correcta del browser.
-3. **Playwright Chromium** fue la herramienta más efectiva para ambas plataformas.
+3. **Playwright Chromium** fue la herramienta más efectiva para las 3 plataformas.
 4. **Uber Eats** fue la plataforma más accesible — menú completo con precios extraíbles después de aceptar cookies e ingresar dirección.
-5. **Rappi** es más restrictiva — requiere login/signup para ver precios del menú. Las APIs internas devuelven 403/405.
-6. **DiDi Food** no existe en México desde 2023.
+5. **Rappi** es restrictiva — requiere login/signup para ver precios del menú. Las APIs internas devuelven 403/405.
+6. **DiDi Food** está activa en México (dominio correcto: `didi-food.com`). También requiere login para ver feed y precios.
+7. **2 de 3 plataformas requieren autenticación** — solo Uber Eats permite acceso anónimo completo al menú.
 
 ## Archivos de Evidencia
 

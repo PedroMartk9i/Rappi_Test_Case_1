@@ -24,3 +24,4 @@ build/
 .idea/
 .vscode/
 .claude/
+node_modules/

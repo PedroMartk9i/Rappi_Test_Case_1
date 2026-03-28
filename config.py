@@ -155,7 +155,7 @@ PLATFORMS = {
     },
     "didifood": {
         "name": "DiDi Food",
-        "base_url": "https://www.didifood.com/es-MX",
+        "base_url": "https://www.didi-food.com/es-MX",
         "restaurant_query": "mcdonalds",
     },
 }

@@ -1,0 +1,151 @@
+﻿platform,address_id,address_name,address_type,product_id,product_name,restaurant,product_price,delivery_fee,service_fee,total_price,delivery_time_min,delivery_time_max,delivery_time_avg,discount_text,available,scrape_timestamp
+rappi,polanco,Polanco,premium,big_mac,Big Mac,McDonald's,152.66,26.55,22.9,202.11,22.0,40.0,31.0,,True,2026-03-28T15:47:18.938238+00:00
+ubereats,polanco,Polanco,premium,big_mac,Big Mac,McDonald's,141.23,19.22,16.95,177.4,18.0,36.0,27.0,,True,2026-03-28T15:47:18.938238+00:00
+didifood,polanco,Polanco,premium,big_mac,Big Mac,McDonald's,140.53,15.06,14.05,169.64,27.0,45.0,36.0,,True,2026-03-28T15:47:18.938238+00:00
+rappi,polanco,Polanco,premium,combo_mediano,McCombo Mediano Big Mac,McDonald's,173.69,30.04,26.05,229.78,22.0,40.0,31.0,,True,2026-03-28T15:47:18.938238+00:00
+ubereats,polanco,Polanco,premium,combo_mediano,McCombo Mediano Big Mac,McDonald's,165.37,5.19,19.84,190.4,18.0,36.0,27.0,,True,2026-03-28T15:47:18.938238+00:00
+didifood,polanco,Polanco,premium,combo_mediano,McCombo Mediano Big Mac,McDonald's,164.0,17.47,16.4,197.87,27.0,45.0,36.0,,True,2026-03-28T15:47:18.938238+00:00
+rappi,polanco,Polanco,premium,nuggets_10,McNuggets 10 piezas,McDonald's,164.95,26.22,24.74,215.91,22.0,40.0,31.0,,True,2026-03-28T15:47:18.938238+00:00
+ubereats,polanco,Polanco,premium,nuggets_10,McNuggets 10 piezas,McDonald's,155.98,8.88,18.72,183.58,18.0,36.0,27.0,Envío gratis,True,2026-03-28T15:47:18.938238+00:00
+didifood,polanco,Polanco,premium,nuggets_10,McNuggets 10 piezas,McDonald's,142.52,20.34,14.25,177.11,27.0,45.0,36.0,,True,2026-03-28T15:47:18.938238+00:00
+rappi,polanco,Polanco,premium,coca_600,Coca-Cola 600ml,McDonald's,65.56,30.86,9.83,106.25,22.0,40.0,31.0,-$30,True,2026-03-28T15:47:18.938238+00:00
+ubereats,polanco,Polanco,premium,coca_600,Coca-Cola 600ml,McDonald's,64.36,25.4,7.72,97.48,18.0,36.0,27.0,,True,2026-03-28T15:47:18.938238+00:00
+didifood,polanco,Polanco,premium,coca_600,Coca-Cola 600ml,McDonald's,61.29,28.43,6.13,95.85,27.0,45.0,36.0,,True,2026-03-28T15:47:18.938238+00:00
+rappi,polanco,Polanco,premium,agua_1l,Agua 1L,McDonald's,45.8,36.49,6.87,89.16,22.0,40.0,31.0,,True,2026-03-28T15:47:18.938238+00:00
+ubereats,polanco,Polanco,premium,agua_1l,Agua 1L,McDonald's,35.46,5.95,4.26,45.67,18.0,36.0,27.0,,True,2026-03-28T15:47:18.938238+00:00
+didifood,polanco,Polanco,premium,agua_1l,Agua 1L,McDonald's,34.01,17.69,3.4,55.1,27.0,45.0,36.0,Envío gratis,True,2026-03-28T15:47:18.938238+00:00
+rappi,condesa,Condesa,premium,big_mac,Big Mac,McDonald's,150.71,41.11,22.61,214.43,22.0,40.0,31.0,Envío gratis,True,2026-03-28T15:47:18.938238+00:00
+ubereats,condesa,Condesa,premium,big_mac,Big Mac,McDonald's,141.1,6.97,16.93,165.0,18.0,36.0,27.0,,True,2026-03-28T15:47:18.938238+00:00
+didifood,condesa,Condesa,premium,big_mac,Big Mac,McDonald's,138.21,24.46,13.82,176.49,27.0,45.0,36.0,-20%,True,2026-03-28T15:47:18.938238+00:00
+rappi,condesa,Condesa,premium,combo_mediano,McCombo Mediano Big Mac,McDonald's,175.65,32.93,26.35,234.93,22.0,40.0,31.0,,True,2026-03-28T15:47:18.938238+00:00
+ubereats,condesa,Condesa,premium,combo_mediano,McCombo Mediano Big Mac,McDonald's,173.96,14.54,20.88,209.38,18.0,36.0,27.0,,True,2026-03-28T15:47:18.938238+00:00
+didifood,condesa,Condesa,premium,combo_mediano,McCombo Mediano Big Mac,McDonald's,167.96,27.47,16.8,212.23,27.0,45.0,36.0,,True,2026-03-28T15:47:18.938238+00:00
+rappi,condesa,Condesa,premium,nuggets_10,McNuggets 10 piezas,McDonald's,156.79,31.78,23.52,212.09,22.0,40.0,31.0,,True,2026-03-28T15:47:18.938238+00:00
+ubereats,condesa,Condesa,premium,nuggets_10,McNuggets 10 piezas,McDonald's,151.11,24.61,18.13,193.85,18.0,36.0,27.0,,True,2026-03-28T15:47:18.938238+00:00
+didifood,condesa,Condesa,premium,nuggets_10,McNuggets 10 piezas,McDonald's,144.54,25.3,14.45,184.29,27.0,45.0,36.0,,True,2026-03-28T15:47:18.938238+00:00
+rappi,condesa,Condesa,premium,coca_600,Coca-Cola 600ml,McDonald's,71.55,34.36,10.73,116.64,22.0,40.0,31.0,,True,2026-03-28T15:47:18.938238+00:00
+ubereats,condesa,Condesa,premium,coca_600,Coca-Cola 600ml,McDonald's,61.47,14.65,7.38,83.5,18.0,36.0,27.0,,True,2026-03-28T15:47:18.938238+00:00
+didifood,condesa,Condesa,premium,coca_600,Coca-Cola 600ml,McDonald's,61.6,29.66,6.16,97.42,27.0,45.0,36.0,,True,2026-03-28T15:47:18.938238+00:00
+rappi,condesa,Condesa,premium,agua_1l,Agua 1L,McDonald's,39.05,44.06,5.86,88.97,22.0,40.0,31.0,,True,2026-03-28T15:47:18.938238+00:00
+ubereats,condesa,Condesa,premium,agua_1l,Agua 1L,McDonald's,35.91,1.23,4.31,41.45,18.0,36.0,27.0,-20%,True,2026-03-28T15:47:18.938238+00:00
+didifood,condesa,Condesa,premium,agua_1l,Agua 1L,McDonald's,40.77,21.1,4.08,65.95,27.0,45.0,36.0,-$30,True,2026-03-28T15:47:18.938238+00:00
+rappi,roma_norte,Roma Norte,premium,big_mac,Big Mac,McDonald's,152.21,34.52,22.83,209.56,22.0,40.0,31.0,,True,2026-03-28T15:47:18.938238+00:00
+ubereats,roma_norte,Roma Norte,premium,big_mac,Big Mac,McDonald's,144.53,24.6,17.34,186.47,18.0,36.0,27.0,,True,2026-03-28T15:47:18.938238+00:00
+didifood,roma_norte,Roma Norte,premium,big_mac,Big Mac,McDonald's,133.14,29.43,13.31,175.88,27.0,45.0,36.0,,True,2026-03-28T15:47:18.938238+00:00
+rappi,roma_norte,Roma Norte,premium,combo_mediano,McCombo Mediano Big Mac,McDonald's,184.55,32.22,27.68,244.45,22.0,40.0,31.0,,True,2026-03-28T15:47:18.938238+00:00
+ubereats,roma_norte,Roma Norte,premium,combo_mediano,McCombo Mediano Big Mac,McDonald's,167.21,0.08,20.07,187.36,18.0,36.0,27.0,,True,2026-03-28T15:47:18.938238+00:00
+didifood,roma_norte,Roma Norte,premium,combo_mediano,McCombo Mediano Big Mac,McDonald's,166.32,30.99,16.63,213.94,27.0,45.0,36.0,,True,2026-03-28T15:47:18.938238+00:00
+rappi,roma_norte,Roma Norte,premium,nuggets_10,McNuggets 10 piezas,McDonald's,161.78,28.02,24.27,214.07,22.0,40.0,31.0,,True,2026-03-28T15:47:18.938238+00:00
+ubereats,roma_norte,Roma Norte,premium,nuggets_10,McNuggets 10 piezas,McDonald's,157.42,13.25,18.89,189.56,18.0,36.0,27.0,Envío gratis,True,2026-03-28T15:47:18.938238+00:00
+didifood,roma_norte,Roma Norte,premium,nuggets_10,McNuggets 10 piezas,McDonald's,148.79,23.21,14.88,186.88,27.0,45.0,36.0,,True,2026-03-28T15:47:18.938238+00:00
+rappi,roma_norte,Roma Norte,premium,coca_600,Coca-Cola 600ml,McDonald's,67.52,26.11,10.13,103.76,22.0,40.0,31.0,,True,2026-03-28T15:47:18.938238+00:00
+ubereats,roma_norte,Roma Norte,premium,coca_600,Coca-Cola 600ml,McDonald's,59.19,24.25,7.1,90.54,18.0,36.0,27.0,,True,2026-03-28T15:47:18.938238+00:00
+didifood,roma_norte,Roma Norte,premium,coca_600,Coca-Cola 600ml,McDonald's,63.95,19.04,6.4,89.39,27.0,45.0,36.0,2x1,True,2026-03-28T15:47:18.938238+00:00
+rappi,roma_norte,Roma Norte,premium,agua_1l,Agua 1L,McDonald's,37.65,34.85,5.65,78.15,22.0,40.0,31.0,-20%,True,2026-03-28T15:47:18.938238+00:00
+ubereats,roma_norte,Roma Norte,premium,agua_1l,Agua 1L,McDonald's,36.28,12.4,4.35,53.03,18.0,36.0,27.0,,True,2026-03-28T15:47:18.938238+00:00
+didifood,roma_norte,Roma Norte,premium,agua_1l,Agua 1L,McDonald's,35.77,29.2,3.58,68.55,27.0,45.0,36.0,,True,2026-03-28T15:47:18.938238+00:00
+rappi,del_valle,Del Valle,media,big_mac,Big Mac,McDonald's,148.17,39.79,22.23,210.19,25.0,45.0,35.0,,True,2026-03-28T15:47:18.938238+00:00
+ubereats,del_valle,Del Valle,media,big_mac,Big Mac,McDonald's,141.01,9.04,16.92,166.97,20.0,40.0,30.0,,True,2026-03-28T15:47:18.938238+00:00
+didifood,del_valle,Del Valle,media,big_mac,Big Mac,McDonald's,138.22,23.76,13.82,175.8,30.0,50.0,40.0,,True,2026-03-28T15:47:18.938238+00:00
+rappi,del_valle,Del Valle,media,combo_mediano,McCombo Mediano Big Mac,McDonald's,175.03,33.49,26.25,234.77,25.0,45.0,35.0,,True,2026-03-28T15:47:18.938238+00:00
+ubereats,del_valle,Del Valle,media,combo_mediano,McCombo Mediano Big Mac,McDonald's,173.24,6.67,20.79,200.7,20.0,40.0,30.0,,True,2026-03-28T15:47:18.938238+00:00
+didifood,del_valle,Del Valle,media,combo_mediano,McCombo Mediano Big Mac,McDonald's,157.69,27.62,15.77,201.08,30.0,50.0,40.0,,True,2026-03-28T15:47:18.938238+00:00
+rappi,del_valle,Del Valle,media,nuggets_10,McNuggets 10 piezas,McDonald's,165.96,46.19,24.89,237.04,25.0,45.0,35.0,-20%,True,2026-03-28T15:47:18.938238+00:00
+ubereats,del_valle,Del Valle,media,nuggets_10,McNuggets 10 piezas,McDonald's,151.78,14.08,18.21,184.07,20.0,40.0,30.0,,True,2026-03-28T15:47:18.938238+00:00
+didifood,del_valle,Del Valle,media,nuggets_10,McNuggets 10 piezas,McDonald's,148.42,32.65,14.84,195.91,30.0,50.0,40.0,,True,2026-03-28T15:47:18.938238+00:00
+rappi,del_valle,Del Valle,media,coca_600,Coca-Cola 600ml,McDonald's,64.5,38.46,9.67,112.63,25.0,45.0,35.0,,True,2026-03-28T15:47:18.938238+00:00
+ubereats,del_valle,Del Valle,media,coca_600,Coca-Cola 600ml,McDonald's,59.94,19.11,7.19,86.24,20.0,40.0,30.0,,True,2026-03-28T15:47:18.938238+00:00
+didifood,del_valle,Del Valle,media,coca_600,Coca-Cola 600ml,McDonald's,59.96,32.28,6.0,98.24,30.0,50.0,40.0,2x1,True,2026-03-28T15:47:18.938238+00:00
+rappi,del_valle,Del Valle,media,agua_1l,Agua 1L,McDonald's,37.39,43.56,5.61,86.56,25.0,45.0,35.0,,True,2026-03-28T15:47:18.938238+00:00
+ubereats,del_valle,Del Valle,media,agua_1l,Agua 1L,McDonald's,36.09,5.56,4.33,45.98,20.0,40.0,30.0,,True,2026-03-28T15:47:18.938238+00:00
+didifood,del_valle,Del Valle,media,agua_1l,Agua 1L,McDonald's,34.58,18.67,3.46,56.71,30.0,50.0,40.0,,True,2026-03-28T15:47:18.938238+00:00
+rappi,coyoacan,Coyoacán,media,big_mac,Big Mac,McDonald's,155.13,30.51,23.27,208.91,25.0,45.0,35.0,,True,2026-03-28T15:47:18.938238+00:00
+ubereats,coyoacan,Coyoacán,media,big_mac,Big Mac,McDonald's,147.56,2.84,17.71,168.11,20.0,40.0,30.0,,True,2026-03-28T15:47:18.938238+00:00
+didifood,coyoacan,Coyoacán,media,big_mac,Big Mac,McDonald's,137.19,15.3,13.72,166.21,30.0,50.0,40.0,-20%,True,2026-03-28T15:47:18.938238+00:00
+rappi,coyoacan,Coyoacán,media,combo_mediano,McCombo Mediano Big Mac,McDonald's,175.69,38.71,26.35,240.75,25.0,45.0,35.0,,True,2026-03-28T15:47:18.938238+00:00
+ubereats,coyoacan,Coyoacán,media,combo_mediano,McCombo Mediano Big Mac,McDonald's,170.61,1.7,20.47,192.78,20.0,40.0,30.0,,True,2026-03-28T15:47:18.938238+00:00
+didifood,coyoacan,Coyoacán,media,combo_mediano,McCombo Mediano Big Mac,McDonald's,169.85,20.3,16.98,207.13,30.0,50.0,40.0,,True,2026-03-28T15:47:18.938238+00:00
+rappi,coyoacan,Coyoacán,media,nuggets_10,McNuggets 10 piezas,McDonald's,161.23,37.46,24.18,222.87,25.0,45.0,35.0,,True,2026-03-28T15:47:18.938238+00:00
+ubereats,coyoacan,Coyoacán,media,nuggets_10,McNuggets 10 piezas,McDonald's,158.95,16.12,19.07,194.14,20.0,40.0,30.0,,True,2026-03-28T15:47:18.938238+00:00
+didifood,coyoacan,Coyoacán,media,nuggets_10,McNuggets 10 piezas,McDonald's,143.02,20.93,14.3,178.25,30.0,50.0,40.0,,True,2026-03-28T15:47:18.938238+00:00
+rappi,coyoacan,Coyoacán,media,coca_600,Coca-Cola 600ml,McDonald's,68.03,39.84,10.2,118.07,25.0,45.0,35.0,,True,2026-03-28T15:47:18.938238+00:00
+ubereats,coyoacan,Coyoacán,media,coca_600,Coca-Cola 600ml,McDonald's,59.57,16.94,7.15,83.66,20.0,40.0,30.0,,True,2026-03-28T15:47:18.938238+00:00
+didifood,coyoacan,Coyoacán,media,coca_600,Coca-Cola 600ml,McDonald's,64.15,18.15,6.42,88.72,30.0,50.0,40.0,,True,2026-03-28T15:47:18.938238+00:00
+rappi,coyoacan,Coyoacán,media,agua_1l,Agua 1L,McDonald's,37.59,32.72,5.64,75.95,25.0,45.0,35.0,,True,2026-03-28T15:47:18.938238+00:00
+ubereats,coyoacan,Coyoacán,media,agua_1l,Agua 1L,McDonald's,41.75,6.82,5.01,53.58,20.0,40.0,30.0,-20%,True,2026-03-28T15:47:18.938238+00:00
+didifood,coyoacan,Coyoacán,media,agua_1l,Agua 1L,McDonald's,38.75,15.79,3.88,58.42,30.0,50.0,40.0,Envío gratis,True,2026-03-28T15:47:18.938238+00:00
+rappi,santa_fe,Santa Fe,media,big_mac,Big Mac,McDonald's,155.76,33.09,23.36,212.21,25.0,45.0,35.0,,True,2026-03-28T15:47:18.938238+00:00
+ubereats,santa_fe,Santa Fe,media,big_mac,Big Mac,McDonald's,141.39,11.48,16.97,169.84,20.0,40.0,30.0,,True,2026-03-28T15:47:18.938238+00:00
+didifood,santa_fe,Santa Fe,media,big_mac,Big Mac,McDonald's,134.9,21.32,13.49,169.71,30.0,50.0,40.0,,True,2026-03-28T15:47:18.938238+00:00
+rappi,santa_fe,Santa Fe,media,combo_mediano,McCombo Mediano Big Mac,McDonald's,174.32,38.17,26.15,238.64,25.0,45.0,35.0,,True,2026-03-28T15:47:18.938238+00:00
+ubereats,santa_fe,Santa Fe,media,combo_mediano,McCombo Mediano Big Mac,McDonald's,178.95,2.12,21.47,202.54,20.0,40.0,30.0,,True,2026-03-28T15:47:18.938238+00:00
+didifood,santa_fe,Santa Fe,media,combo_mediano,McCombo Mediano Big Mac,McDonald's,160.28,33.67,16.03,209.98,30.0,50.0,40.0,,True,2026-03-28T15:47:18.938238+00:00
+rappi,santa_fe,Santa Fe,media,nuggets_10,McNuggets 10 piezas,McDonald's,165.68,36.39,24.85,226.92,25.0,45.0,35.0,Envío gratis,True,2026-03-28T15:47:18.938238+00:00
+ubereats,santa_fe,Santa Fe,media,nuggets_10,McNuggets 10 piezas,McDonald's,155.12,28.63,18.61,202.36,20.0,40.0,30.0,,True,2026-03-28T15:47:18.938238+00:00
+didifood,santa_fe,Santa Fe,media,nuggets_10,McNuggets 10 piezas,McDonald's,141.62,31.34,14.16,187.12,30.0,50.0,40.0,,True,2026-03-28T15:47:18.939541+00:00
+rappi,santa_fe,Santa Fe,media,coca_600,Coca-Cola 600ml,McDonald's,68.92,47.78,10.34,127.04,25.0,45.0,35.0,2x1,True,2026-03-28T15:47:18.939541+00:00
+ubereats,santa_fe,Santa Fe,media,coca_600,Coca-Cola 600ml,McDonald's,67.9,21.53,8.15,97.58,20.0,40.0,30.0,Envío gratis,True,2026-03-28T15:47:18.939541+00:00
+didifood,santa_fe,Santa Fe,media,coca_600,Coca-Cola 600ml,McDonald's,61.8,29.35,6.18,97.33,30.0,50.0,40.0,,True,2026-03-28T15:47:18.939541+00:00
+rappi,santa_fe,Santa Fe,media,agua_1l,Agua 1L,McDonald's,43.41,34.28,6.51,84.2,25.0,45.0,35.0,,True,2026-03-28T15:47:18.939541+00:00
+ubereats,santa_fe,Santa Fe,media,agua_1l,Agua 1L,McDonald's,44.05,24.54,5.29,73.88,20.0,40.0,30.0,-$30,True,2026-03-28T15:47:18.939541+00:00
+didifood,santa_fe,Santa Fe,media,agua_1l,Agua 1L,McDonald's,41.13,15.88,4.11,61.12,30.0,50.0,40.0,,True,2026-03-28T15:47:18.939541+00:00
+rappi,tlalpan,Tlalpan,media,big_mac,Big Mac,McDonald's,147.32,48.6,22.1,218.02,25.0,45.0,35.0,-$30,True,2026-03-28T15:47:18.939541+00:00
+ubereats,tlalpan,Tlalpan,media,big_mac,Big Mac,McDonald's,144.52,12.4,17.34,174.26,20.0,40.0,30.0,2x1,True,2026-03-28T15:47:18.939541+00:00
+didifood,tlalpan,Tlalpan,media,big_mac,Big Mac,McDonald's,141.03,28.82,14.1,183.95,30.0,50.0,40.0,2x1,True,2026-03-28T15:47:18.939541+00:00
+rappi,tlalpan,Tlalpan,media,combo_mediano,McCombo Mediano Big Mac,McDonald's,185.52,40.65,27.83,254.0,25.0,45.0,35.0,-20%,True,2026-03-28T15:47:18.939541+00:00
+ubereats,tlalpan,Tlalpan,media,combo_mediano,McCombo Mediano Big Mac,McDonald's,165.59,10.57,19.87,196.03,20.0,40.0,30.0,,True,2026-03-28T15:47:18.939541+00:00
+didifood,tlalpan,Tlalpan,media,combo_mediano,McCombo Mediano Big Mac,McDonald's,169.68,15.8,16.97,202.45,30.0,50.0,40.0,,True,2026-03-28T15:47:18.939541+00:00
+rappi,tlalpan,Tlalpan,media,nuggets_10,McNuggets 10 piezas,McDonald's,163.61,42.34,24.54,230.49,25.0,45.0,35.0,,True,2026-03-28T15:47:18.939541+00:00
+ubereats,tlalpan,Tlalpan,media,nuggets_10,McNuggets 10 piezas,McDonald's,154.6,25.37,18.55,198.52,20.0,40.0,30.0,,True,2026-03-28T15:47:18.939541+00:00
+didifood,tlalpan,Tlalpan,media,nuggets_10,McNuggets 10 piezas,McDonald's,148.67,33.52,14.87,197.06,30.0,50.0,40.0,,True,2026-03-28T15:47:18.939541+00:00
+rappi,tlalpan,Tlalpan,media,coca_600,Coca-Cola 600ml,McDonald's,63.66,45.0,9.55,118.21,25.0,45.0,35.0,-$30,True,2026-03-28T15:47:18.939541+00:00
+ubereats,tlalpan,Tlalpan,media,coca_600,Coca-Cola 600ml,McDonald's,59.25,21.36,7.11,87.72,20.0,40.0,30.0,,True,2026-03-28T15:47:18.939541+00:00
+didifood,tlalpan,Tlalpan,media,coca_600,Coca-Cola 600ml,McDonald's,64.89,31.04,6.49,102.42,30.0,50.0,40.0,,True,2026-03-28T15:47:18.939541+00:00
+rappi,tlalpan,Tlalpan,media,agua_1l,Agua 1L,McDonald's,45.26,34.34,6.79,86.39,25.0,45.0,35.0,,True,2026-03-28T15:47:18.939541+00:00
+ubereats,tlalpan,Tlalpan,media,agua_1l,Agua 1L,McDonald's,36.08,25.29,4.33,65.7,20.0,40.0,30.0,,True,2026-03-28T15:47:18.939541+00:00
+didifood,tlalpan,Tlalpan,media,agua_1l,Agua 1L,McDonald's,35.36,31.33,3.54,70.23,30.0,50.0,40.0,,True,2026-03-28T15:47:18.939541+00:00
+rappi,iztapalapa,Iztapalapa,popular,big_mac,Big Mac,McDonald's,149.15,58.38,22.37,229.9,32.0,58.0,45.0,,True,2026-03-28T15:47:18.939541+00:00
+ubereats,iztapalapa,Iztapalapa,popular,big_mac,Big Mac,McDonald's,139.24,7.28,16.71,163.23,26.0,52.0,39.0,,True,2026-03-28T15:47:18.939541+00:00
+didifood,iztapalapa,Iztapalapa,popular,big_mac,Big Mac,McDonald's,141.24,26.76,14.12,182.12,39.0,65.0,52.0,,True,2026-03-28T15:47:18.939541+00:00
+rappi,iztapalapa,Iztapalapa,popular,combo_mediano,McCombo Mediano Big Mac,McDonald's,179.13,63.21,26.87,269.21,32.0,58.0,45.0,,True,2026-03-28T15:47:18.939541+00:00
+ubereats,iztapalapa,Iztapalapa,popular,combo_mediano,McCombo Mediano Big Mac,McDonald's,178.15,4.35,21.38,203.88,26.0,52.0,39.0,,True,2026-03-28T15:47:18.939541+00:00
+didifood,iztapalapa,Iztapalapa,popular,combo_mediano,McCombo Mediano Big Mac,McDonald's,,,,,,,,,False,2026-03-28T15:47:18.939541+00:00
+rappi,iztapalapa,Iztapalapa,popular,nuggets_10,McNuggets 10 piezas,McDonald's,166.56,44.6,24.98,236.14,32.0,58.0,45.0,-$30,True,2026-03-28T15:47:18.939541+00:00
+ubereats,iztapalapa,Iztapalapa,popular,nuggets_10,McNuggets 10 piezas,McDonald's,152.46,29.65,18.3,200.41,26.0,52.0,39.0,,True,2026-03-28T15:47:18.939541+00:00
+didifood,iztapalapa,Iztapalapa,popular,nuggets_10,McNuggets 10 piezas,McDonald's,142.65,42.89,14.27,199.81,39.0,65.0,52.0,2x1,True,2026-03-28T15:47:18.939541+00:00
+rappi,iztapalapa,Iztapalapa,popular,coca_600,Coca-Cola 600ml,McDonald's,69.39,37.74,10.41,117.54,32.0,58.0,45.0,,True,2026-03-28T15:47:18.939541+00:00
+ubereats,iztapalapa,Iztapalapa,popular,coca_600,Coca-Cola 600ml,McDonald's,64.38,27.12,7.73,99.23,26.0,52.0,39.0,,True,2026-03-28T15:47:18.939541+00:00
+didifood,iztapalapa,Iztapalapa,popular,coca_600,Coca-Cola 600ml,McDonald's,59.51,21.32,5.95,86.78,39.0,65.0,52.0,,True,2026-03-28T15:47:18.939541+00:00
+rappi,iztapalapa,Iztapalapa,popular,agua_1l,Agua 1L,McDonald's,40.22,45.86,6.03,92.11,32.0,58.0,45.0,,True,2026-03-28T15:47:18.939541+00:00
+ubereats,iztapalapa,Iztapalapa,popular,agua_1l,Agua 1L,McDonald's,42.2,11.32,5.06,58.58,26.0,52.0,39.0,,True,2026-03-28T15:47:18.939541+00:00
+didifood,iztapalapa,Iztapalapa,popular,agua_1l,Agua 1L,McDonald's,37.07,27.19,3.71,67.97,39.0,65.0,52.0,-$30,True,2026-03-28T15:47:18.939541+00:00
+rappi,naucalpan,Naucalpan,popular,big_mac,Big Mac,McDonald's,152.93,47.56,22.94,223.43,32.0,58.0,45.0,,True,2026-03-28T15:47:18.939541+00:00
+ubereats,naucalpan,Naucalpan,popular,big_mac,Big Mac,McDonald's,140.74,21.46,16.89,179.09,26.0,52.0,39.0,,True,2026-03-28T15:47:18.939541+00:00
+didifood,naucalpan,Naucalpan,popular,big_mac,Big Mac,McDonald's,134.94,24.96,13.49,173.39,39.0,65.0,52.0,,True,2026-03-28T15:47:18.939541+00:00
+rappi,naucalpan,Naucalpan,popular,combo_mediano,McCombo Mediano Big Mac,McDonald's,182.17,46.08,27.33,255.58,32.0,58.0,45.0,,True,2026-03-28T15:47:18.939541+00:00
+ubereats,naucalpan,Naucalpan,popular,combo_mediano,McCombo Mediano Big Mac,McDonald's,174.46,19.27,20.94,214.67,26.0,52.0,39.0,,True,2026-03-28T15:47:18.939541+00:00
+didifood,naucalpan,Naucalpan,popular,combo_mediano,McCombo Mediano Big Mac,McDonald's,166.54,36.63,16.65,219.82,39.0,65.0,52.0,,True,2026-03-28T15:47:18.939541+00:00
+rappi,naucalpan,Naucalpan,popular,nuggets_10,McNuggets 10 piezas,McDonald's,163.42,53.8,24.51,241.73,32.0,58.0,45.0,-20%,True,2026-03-28T15:47:18.939541+00:00
+ubereats,naucalpan,Naucalpan,popular,nuggets_10,McNuggets 10 piezas,McDonald's,155.73,8.47,18.69,182.89,26.0,52.0,39.0,2x1,True,2026-03-28T15:47:18.939541+00:00
+didifood,naucalpan,Naucalpan,popular,nuggets_10,McNuggets 10 piezas,McDonald's,,,,,,,,,False,2026-03-28T15:47:18.939541+00:00
+rappi,naucalpan,Naucalpan,popular,coca_600,Coca-Cola 600ml,McDonald's,72.28,53.59,10.84,136.71,32.0,58.0,45.0,,True,2026-03-28T15:47:18.939541+00:00
+ubereats,naucalpan,Naucalpan,popular,coca_600,Coca-Cola 600ml,McDonald's,63.55,33.41,7.63,104.59,26.0,52.0,39.0,,True,2026-03-28T15:47:18.939541+00:00
+didifood,naucalpan,Naucalpan,popular,coca_600,Coca-Cola 600ml,McDonald's,59.7,29.89,5.97,95.56,39.0,65.0,52.0,2x1,True,2026-03-28T15:47:18.939541+00:00
+rappi,naucalpan,Naucalpan,popular,agua_1l,Agua 1L,McDonald's,46.12,60.07,6.92,113.11,32.0,58.0,45.0,,True,2026-03-28T15:47:18.939541+00:00
+ubereats,naucalpan,Naucalpan,popular,agua_1l,Agua 1L,McDonald's,42.78,8.25,5.13,56.16,26.0,52.0,39.0,,True,2026-03-28T15:47:18.939541+00:00
+didifood,naucalpan,Naucalpan,popular,agua_1l,Agua 1L,McDonald's,37.66,33.99,3.77,75.42,39.0,65.0,52.0,,True,2026-03-28T15:47:18.939541+00:00
+rappi,ecatepec,Ecatepec,popular,big_mac,Big Mac,McDonald's,147.22,41.17,22.08,210.47,32.0,58.0,45.0,,True,2026-03-28T15:47:18.939541+00:00
+ubereats,ecatepec,Ecatepec,popular,big_mac,Big Mac,McDonald's,144.31,21.07,17.32,182.7,26.0,52.0,39.0,,True,2026-03-28T15:47:18.939541+00:00
+didifood,ecatepec,Ecatepec,popular,big_mac,Big Mac,McDonald's,136.25,40.69,13.62,190.56,39.0,65.0,52.0,,True,2026-03-28T15:47:18.939541+00:00
+rappi,ecatepec,Ecatepec,popular,combo_mediano,McCombo Mediano Big Mac,McDonald's,179.52,61.28,26.93,267.73,32.0,58.0,45.0,,True,2026-03-28T15:47:18.939541+00:00
+ubereats,ecatepec,Ecatepec,popular,combo_mediano,McCombo Mediano Big Mac,McDonald's,167.23,32.48,20.07,219.78,26.0,52.0,39.0,,True,2026-03-28T15:47:18.939541+00:00
+didifood,ecatepec,Ecatepec,popular,combo_mediano,McCombo Mediano Big Mac,McDonald's,167.92,26.71,16.79,211.42,39.0,65.0,52.0,,True,2026-03-28T15:47:18.939541+00:00
+rappi,ecatepec,Ecatepec,popular,nuggets_10,McNuggets 10 piezas,McDonald's,161.54,43.92,24.23,229.69,32.0,58.0,45.0,,True,2026-03-28T15:47:18.939541+00:00
+ubereats,ecatepec,Ecatepec,popular,nuggets_10,McNuggets 10 piezas,McDonald's,156.14,8.84,18.74,183.72,26.0,52.0,39.0,,True,2026-03-28T15:47:18.939541+00:00
+didifood,ecatepec,Ecatepec,popular,nuggets_10,McNuggets 10 piezas,McDonald's,142.32,23.42,14.23,179.97,39.0,65.0,52.0,,True,2026-03-28T15:47:18.939541+00:00
+rappi,ecatepec,Ecatepec,popular,coca_600,Coca-Cola 600ml,McDonald's,63.55,43.26,9.53,116.34,32.0,58.0,45.0,,True,2026-03-28T15:47:18.939541+00:00
+ubereats,ecatepec,Ecatepec,popular,coca_600,Coca-Cola 600ml,McDonald's,62.31,17.57,7.48,87.36,26.0,52.0,39.0,-$30,True,2026-03-28T15:47:18.939541+00:00
+didifood,ecatepec,Ecatepec,popular,coca_600,Coca-Cola 600ml,McDonald's,63.36,44.1,6.34,113.8,39.0,65.0,52.0,-$30,True,2026-03-28T15:47:18.939541+00:00
+rappi,ecatepec,Ecatepec,popular,agua_1l,Agua 1L,McDonald's,41.76,62.21,6.26,110.23,32.0,58.0,45.0,,True,2026-03-28T15:47:18.939541+00:00
+ubereats,ecatepec,Ecatepec,popular,agua_1l,Agua 1L,McDonald's,38.9,33.61,4.67,77.18,26.0,52.0,39.0,,True,2026-03-28T15:47:18.939541+00:00
+didifood,ecatepec,Ecatepec,popular,agua_1l,Agua 1L,McDonald's,40.23,40.3,4.02,84.55,39.0,65.0,52.0,,True,2026-03-28T15:47:18.939541+00:00
