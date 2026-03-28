@@ -25,3 +25,12 @@ build/
 .vscode/
 .claude/
 node_modules/
+
+# Auth state files (contain session tokens/cookies)
+*_auth_state.json
+*_login_state.json
+*_sms_code.txt
+*_email_code.txt
+
+# Iterative test experiments
+tests/scraping_experiments/

@@ -41,7 +41,7 @@ rappi-competitive-intel/
 │   ├── base.py                      # BaseScraper (ABC) + ScrapedItem (dataclass)
 │   ├── rappi_scraper.py             # Rappi: API + Playwright
 │   ├── ubereats_scraper.py          # Uber Eats: Playwright + cookie handling
-│   └── didifood_scraper.py          # DiDi Food: detección de cierre
+│   └── didifood_scraper.py          # DiDi Food: Playwright + login automation
 ├── pipeline/
 │   ├── normalizer.py                # List[ScrapedItem] → pd.DataFrame
 │   └── exporter.py                  # DataFrame → CSV/JSON
@@ -52,11 +52,12 @@ rappi-competitive-intel/
 │   ├── raw/                         # Screenshots de evidencia
 │   └── processed/                   # CSV/JSON normalizado
 ├── reports/                         # Informe Markdown + gráficos PNG
-├── test_real_scraping.py            # Tests de scraping HTTP (Fetcher)
-├── test_real_scraping_v2.py         # Tests con Playwright Chromium
+├── test_real_scraping_v2.py          # Tests de scraping HTTP + Playwright
 ├── test_deep_scrape.py              # Navegación profunda al menú
-├── test_final_extraction.py         # Extracción final de precios
-├── test_stealthy.py                 # Tests con StealthyFetcher (Camoufox)
+├── test_final_extraction.py         # Extracción final de precios (Uber Eats)
+├── test_rappi_login_v2.py           # Login automatizado Rappi (SMS + Email 2FA)
+├── test_didifood_login_v7.py        # Login automatizado DiDi Food (Vue.js)
+├── tests/scraping_experiments/      # Scripts iterativos de experimentación
 ├── SCRAPING_LOG.md                  # Log detallado de cada intento de scraping
 └── requirements.txt
 ```
@@ -112,8 +113,8 @@ Adicionalmente se requiere **Playwright** (instalado con scrapling) y **Chromium
 | Plataforma | Método | Resultado | Blocker |
 |:-----------|:-------|:----------|:--------|
 | **Uber Eats** | Playwright Chromium | **155 precios reales extraídos** | Cookie consent (resuelto) |
-| **Rappi** | Playwright + API | Página carga, APIs descubiertas | Login obligatorio para ver menú |
-| **DiDi Food** | HTTP Fetcher | Dominio en venta | Servicio cerrado en México (2023) |
+| **Rappi** | Playwright + Login 2FA | SMS+Email verificado, flujo completo | Doble verificación (SMS + Email OTP) |
+| **DiDi Food** | Playwright + Vue.js | Form validado, login automatizado | Rate limiting temporal |
 
 Ver `SCRAPING_LOG.md` para documentación detallada de cada intento.
 
@@ -142,8 +143,8 @@ Ver `SCRAPING_LOG.md` para documentación detallada de cada intento.
     ┌──────────────┐ ┌───────────┐ ┌────────────┐
     │ RappiScraper │ │ UberEats  │ │  DiDiFood  │
     │  (Playwright │ │ Scraper   │ │  Scraper   │
-    │   + API)     │ │(Playwright│ │ (detección │
-    │              │ │+ cookies) │ │  cierre)   │
+    │  + API +2FA) │ │(Playwright│ │ (Playwright│
+    │              │ │+ cookies) │ │  + Vue.js) │
     └──────┬───────┘ └─────┬─────┘ └─────┬──────┘
            │               │             │
            └───────┬───────┘─────────────┘
@@ -187,14 +188,15 @@ Ver `SCRAPING_LOG.md` para documentación detallada de cada intento.
 
 ## Limitaciones Conocidas
 
-1. **Rappi** requiere cuenta/login para ver precios del menú. Las APIs internas retornan 403 sin token de sesión autenticado.
-2. **DiDi Food** cerró operaciones en México en 2023. El dominio `didifood.com` está en venta.
+1. **Rappi** requiere doble verificación (SMS + Email) para login desde dispositivos nuevos. El flujo automatizado funciona pero los OTP expiran rápido (~60s).
+2. **DiDi Food** opera activamente en México (`didi-food.com`). Requiere login para ver precios. Login automatizado funciona, pero rate limiting bloquea después de múltiples intentos.
 3. **Scraping a escala** (10 zonas x 5 productos x 3 plataformas = 150 requests con Playwright) toma ~30-60 min. El modo `--demo` existe para desarrollo rápido.
 4. Los precios pueden variar por hora del día, día de la semana y demanda en tiempo real.
 
 ## Next Steps (con más tiempo)
 
-- [ ] Autenticación en Rappi para extraer precios reales
+- [ ] Persistencia de sesión post-login (`storage_state`) para reutilizar cookies sin re-autenticar
+- [ ] Lectura automática de OTP via IMAP/Microsoft Graph API para el email code de Rappi
 - [ ] Dashboard interactivo con Streamlit
 - [ ] Scraping multi-vertical (retail, farmacia)
 - [ ] Scheduling con cron/GitHub Actions para monitoreo continuo
