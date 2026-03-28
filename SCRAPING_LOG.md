@@ -39,7 +39,7 @@
    - URL `/login` → Página muestra opciones: "Continuar con tu celular", Facebook, Apple
    - Click "Continuar con tu celular" → Input de teléfono con selector de país
    - Selector de país: Click en "+52" → Dropdown → Seleccionar "Colombia" → +57 ✅
-   - Ingreso de teléfono: 3108532310 ✅
+   - Ingreso de teléfono: [REDACTED] ✅
    - Botones: "Recibir código por SMS" (verde) y "Recibir código por WhatsApp"
    - Click "Recibir código por SMS" → Redirige a `/login/verify`
    - **Verificación paso 1 (SMS)**: 4 inputs tipo OTP, código de 4 dígitos → ✅ Verificado exitosamente
@@ -122,10 +122,10 @@
 4. Login automatizado con Playwright:
    - URL con `country_id=170` → Colombia (+57) seleccionado correctamente
    - Tab "Ingresar con contraseña" → Activo
-   - Phone: 3108532310, Password: ingresado correctamente
+   - Phone: [REDACTED], Password: [REDACTED]
    - Checkbox "Acepto Términos": Clickeado correctamente
    - **Vue.js state confirmado**: `cellValid: true`, `passwordValid: true`, `agreementValid: true`
-   - Login page usa Vue.js con componentes: formulario en `<DIV>` con `formData.cell`, `formData.password`, `formData.country`
+   - Login page usa Vue.js con componentes: formulario en `<DIV>` con `formData.cell`, `formData.country`
    - El botón "Iniciar sesión" es un `<DIV class="button actived">`, NO un `<button>` HTML
    - **Rate limited**: Después de múltiples intentos con país incorrecto (México +52), DiDi bloqueó temporalmente: "Demasiados intentos de inicio de sesión. Inténtalo de nuevo más tarde"
 
