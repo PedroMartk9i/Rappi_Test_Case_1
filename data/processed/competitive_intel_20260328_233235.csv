@@ -1,0 +1,5 @@
+platform,zone_id,zone_name,zone_type,store,product_id,product_name,current_price,original_price,discount,delivery_fee,delivery_time_min,delivery_time_max,rating
+ubereats,polanco,Polanco,premium,pollos-de-mcdonalds-polanco,mcpollo,McTrío mediano McPollo,99.0,99.0,,,14,,4.4
+ubereats,polanco,Polanco,premium,pollos-de-mcdonalds-polanco,mcnuggets_10,McTrio mediano McNuggets 10 pzas,139.0,139.0,,,14,,4.4
+ubereats,polanco,Polanco,premium,pollos-de-mcdonalds-polanco,papas_grandes,Papas grandes,79.0,79.0,,,14,,4.4
+ubereats,polanco,Polanco,premium,pollos-de-mcdonalds-polanco,coca_cola,Coca-Cola mediana,65.0,65.0,,,14,,4.4

@@ -1,0 +1,917 @@
+[
+  {
+    "platform": "ubereats",
+    "zone_id": "polanco",
+    "zone_name": "Polanco",
+    "zone_type": "premium",
+    "address": "Av. Presidente Masaryk 360, Polanco, CDMX",
+    "store": "pollos-de-mcdonalds-polanco",
+    "delivery_info": {
+      "time_min": 14,
+      "rating": 4.4
+    },
+    "products": [
+      {
+        "name": "#1 de tus favoritos",
+        "currentPrice": 99.0,
+        "originalPrice": 99.0,
+        "discount": null
+      },
+      {
+        "name": "McTrío mediano McPollo",
+        "currentPrice": 99.0,
+        "originalPrice": 99.0,
+        "discount": null
+      },
+      {
+        "name": "#2 de tus favoritos",
+        "currentPrice": 99.0,
+        "originalPrice": 99.0,
+        "discount": null
+      },
+      {
+        "name": "Paquete Botanero",
+        "currentPrice": 99.0,
+        "originalPrice": 99.0,
+        "discount": null
+      },
+      {
+        "name": "#3 de tus favoritos",
+        "currentPrice": 139.0,
+        "originalPrice": 139.0,
+        "discount": null
+      },
+      {
+        "name": "Fan del Pollo",
+        "currentPrice": 139.0,
+        "originalPrice": 139.0,
+        "discount": null
+      },
+      {
+        "name": "- 38%",
+        "currentPrice": 139.0,
+        "originalPrice": 139.0,
+        "discount": null
+      },
+      {
+        "name": "McTrio mediano McNuggets 10 pzas",
+        "currentPrice": 139.0,
+        "originalPrice": 139.0,
+        "discount": null
+      },
+      {
+        "name": "- 22%",
+        "currentPrice": 169.0,
+        "originalPrice": 169.0,
+        "discount": null
+      },
+      {
+        "name": "McTrío mediano McCrispy Spicy",
+        "currentPrice": 169.0,
+        "originalPrice": 169.0,
+        "discount": null
+      },
+      {
+        "name": "Cajita Feliz McNuggets de pollo 4 pzas",
+        "currentPrice": 159.0,
+        "originalPrice": 159.0,
+        "discount": null
+      },
+      {
+        "name": "McTrío mediano McCrispy Deluxe",
+        "currentPrice": 179.0,
+        "originalPrice": 179.0,
+        "discount": null
+      },
+      {
+        "name": "McNuggets de Pollo 10 pzas",
+        "currentPrice": 155.0,
+        "originalPrice": 155.0,
+        "discount": null
+      },
+      {
+        "name": "McTrío mediano McCrispy Cajún",
+        "currentPrice": 189.0,
+        "originalPrice": 189.0,
+        "discount": null
+      },
+      {
+        "name": "McFlurry Chips Ahoy!",
+        "currentPrice": 65.0,
+        "originalPrice": 65.0,
+        "discount": null
+      },
+      {
+        "name": "McNuggets de Pollo 4 pzas",
+        "currentPrice": 59.0,
+        "originalPrice": 59.0,
+        "discount": null
+      },
+      {
+        "name": "Papas grandes",
+        "currentPrice": 79.0,
+        "originalPrice": 79.0,
+        "discount": null
+      },
+      {
+        "name": "McFlurry Oreo",
+        "currentPrice": 59.0,
+        "originalPrice": 59.0,
+        "discount": null
+      },
+      {
+        "name": "Sundae chocolate",
+        "currentPrice": 45.0,
+        "originalPrice": 45.0,
+        "discount": null
+      },
+      {
+        "name": "McFlurry M&M's",
+        "currentPrice": 65.0,
+        "originalPrice": 65.0,
+        "discount": null
+      },
+      {
+        "name": "Malteada fresa",
+        "currentPrice": 65.0,
+        "originalPrice": 65.0,
+        "discount": null
+      },
+      {
+        "name": "Coca-Cola mediana",
+        "currentPrice": 65.0,
+        "originalPrice": 65.0,
+        "discount": null
+      },
+      {
+        "name": "Malteada chocolate",
+        "currentPrice": 65.0,
+        "originalPrice": 65.0,
+        "discount": null
+      },
+      {
+        "name": "Malteada vainilla",
+        "currentPrice": 65.0,
+        "originalPrice": 65.0,
+        "discount": null
+      },
+      {
+        "name": "Ahorros exclusivos",
+        "currentPrice": 99.0,
+        "originalPrice": 99.0,
+        "discount": null
+      },
+      {
+        "name": "McTrío mediano McPollo",
+        "currentPrice": 99.0,
+        "originalPrice": 99.0,
+        "discount": null
+      },
+      {
+        "name": "- 14%",
+        "currentPrice": 139.0,
+        "originalPrice": 139.0,
+        "discount": null
+      },
+      {
+        "name": "McTrio mediano McNuggets 10 pzas",
+        "currentPrice": 139.0,
+        "originalPrice": 139.0,
+        "discount": null
+      },
+      {
+        "name": "- 22%",
+        "currentPrice": 99.0,
+        "originalPrice": 99.0,
+        "discount": null
+      },
+      {
+        "name": "Paquete Botanero",
+        "currentPrice": 99.0,
+        "originalPrice": 99.0,
+        "discount": null
+      },
+      {
+        "name": "- 56%",
+        "currentPrice": 139.0,
+        "originalPrice": 139.0,
+        "discount": null
+      },
+      {
+        "name": "Fan del Pollo",
+        "currentPrice": 139.0,
+        "originalPrice": 139.0,
+        "discount": null
+      },
+      {
+        "name": "- 38%",
+        "currentPrice": 177.0,
+        "originalPrice": 177.0,
+        "discount": null
+      },
+      {
+        "name": "4X3 McFlurry Oreo",
+        "currentPrice": 177.0,
+        "originalPrice": 177.0,
+        "discount": null
+      },
+      {
+        "name": "Mc para Todos",
+        "currentPrice": 139.0,
+        "originalPrice": 139.0,
+        "discount": null
+      },
+      {
+        "name": "Fan del Pollo",
+        "currentPrice": 139.0,
+        "originalPrice": 139.0,
+        "discount": null
+      },
+      {
+        "name": "- 38%",
+        "currentPrice": 99.0,
+        "originalPrice": 99.0,
+        "discount": null
+      },
+      {
+        "name": "Paquete Botanero",
+        "currentPrice": 99.0,
+        "originalPrice": 99.0,
+        "discount": null
+      },
+      {
+        "name": "Mc para Todos",
+        "currentPrice": 139.0,
+        "originalPrice": 139.0,
+        "discount": null
+      },
+      {
+        "name": "Fan del Pollo",
+        "currentPrice": 139.0,
+        "originalPrice": 139.0,
+        "discount": null
+      },
+      {
+        "name": "- 38%",
+        "currentPrice": 99.0,
+        "originalPrice": 99.0,
+        "discount": null
+      },
+      {
+        "name": "Paquete Botanero",
+        "currentPrice": 99.0,
+        "originalPrice": 99.0,
+        "discount": null
+      },
+      {
+        "name": "- 56%",
+        "currentPrice": 522.0,
+        "originalPrice": 522.0,
+        "discount": null
+      },
+      {
+        "name": "McNuggets y Papas para Todos",
+        "currentPrice": 522.0,
+        "originalPrice": 522.0,
+        "discount": null
+      },
+      {
+        "name": "Cajita Feliz",
+        "currentPrice": 159.0,
+        "originalPrice": 159.0,
+        "discount": null
+      },
+      {
+        "name": "Cajita Feliz McNuggets de pollo 4 pzas",
+        "currentPrice": 159.0,
+        "originalPrice": 159.0,
+        "discount": null
+      },
+      {
+        "name": "McTrios",
+        "currentPrice": 169.0,
+        "originalPrice": 169.0,
+        "discount": null
+      },
+      {
+        "name": "McTrío mediano McCrispy Spicy",
+        "currentPrice": 169.0,
+        "originalPrice": 169.0,
+        "discount": null
+      },
+      {
+        "name": "McTrio Mediano McCrispy Spicy",
+        "currentPrice": 179.0,
+        "originalPrice": 179.0,
+        "discount": null
+      },
+      {
+        "name": "McTrío mediano McCrispy Deluxe",
+        "currentPrice": 179.0,
+        "originalPrice": 179.0,
+        "discount": null
+      },
+      {
+        "name": "McTrío McCrispy Deluxe",
+        "currentPrice": 99.0,
+        "originalPrice": 99.0,
+        "discount": null
+      },
+      {
+        "name": "McTrío mediano McPollo",
+        "currentPrice": 99.0,
+        "originalPrice": 99.0,
+        "discount": null
+      },
+      {
+        "name": "- 14%",
+        "currentPrice": 139.0,
+        "originalPrice": 139.0,
+        "discount": null
+      },
+      {
+        "name": "McTrio mediano McNuggets 10 pzas",
+        "currentPrice": 139.0,
+        "originalPrice": 139.0,
+        "discount": null
+      },
+      {
+        "name": "- 22%",
+        "currentPrice": 189.0,
+        "originalPrice": 189.0,
+        "discount": null
+      },
+      {
+        "name": "McTrío mediano McCrispy Cajún",
+        "currentPrice": 189.0,
+        "originalPrice": 189.0,
+        "discount": null
+      },
+      {
+        "name": "A la Carta",
+        "currentPrice": 79.0,
+        "originalPrice": 79.0,
+        "discount": null
+      },
+      {
+        "name": "Papas grandes",
+        "currentPrice": 79.0,
+        "originalPrice": 79.0,
+        "discount": null
+      },
+      {
+        "name": "Papas a la francesa clasicas doraditas y crujientes por fuera.",
+        "currentPrice": 155.0,
+        "originalPrice": 155.0,
+        "discount": null
+      },
+      {
+        "name": "McNuggets de Pollo 10 pzas",
+        "currentPrice": 155.0,
+        "originalPrice": 155.0,
+        "discount": null
+      },
+      {
+        "name": "Popular",
+        "currentPrice": 59.0,
+        "originalPrice": 59.0,
+        "discount": null
+      },
+      {
+        "name": "McNuggets de Pollo 4 pzas",
+        "currentPrice": 59.0,
+        "originalPrice": 59.0,
+        "discount": null
+      },
+      {
+        "name": "Postres",
+        "currentPrice": 59.0,
+        "originalPrice": 59.0,
+        "discount": null
+      },
+      {
+        "name": "McFlurry Oreo",
+        "currentPrice": 59.0,
+        "originalPrice": 59.0,
+        "discount": null
+      },
+      {
+        "name": "McFlurry M&M's",
+        "currentPrice": 65.0,
+        "originalPrice": 65.0,
+        "discount": null
+      },
+      {
+        "name": "Sundae chocolate",
+        "currentPrice": 45.0,
+        "originalPrice": 45.0,
+        "discount": null
+      },
+      {
+        "name": "Helado preparado con 100% leche de vaca acompañado de chocolate derretido.",
+        "currentPrice": 40.0,
+        "originalPrice": 40.0,
+        "discount": null
+      },
+      {
+        "name": "Pay de queso",
+        "currentPrice": 40.0,
+        "originalPrice": 40.0,
+        "discount": null
+      },
+      {
+        "name": "Pay de queso crujiente y dorado con queso crema derretido por dentro.",
+        "currentPrice": 40.0,
+        "originalPrice": 40.0,
+        "discount": null
+      },
+      {
+        "name": "Pay de manzana",
+        "currentPrice": 40.0,
+        "originalPrice": 40.0,
+        "discount": null
+      },
+      {
+        "name": "Sundae fresa",
+        "currentPrice": 45.0,
+        "originalPrice": 45.0,
+        "discount": null
+      },
+      {
+        "name": "Helado preparado con 100% leche de vaca acompañado de jarabe de fresa.",
+        "currentPrice": 45.0,
+        "originalPrice": 45.0,
+        "discount": null
+      },
+      {
+        "name": "Sundae Mario Galaxy",
+        "currentPrice": 45.0,
+        "originalPrice": 45.0,
+        "discount": null
+      },
+      {
+        "name": "Sundae Mario Galaxy",
+        "currentPrice": 65.0,
+        "originalPrice": 65.0,
+        "discount": null
+      },
+      {
+        "name": "McFlurry Chips Ahoy!",
+        "currentPrice": 65.0,
+        "originalPrice": 65.0,
+        "discount": null
+      },
+      {
+        "name": "4X3 McFlurry Oreo",
+        "currentPrice": 177.0,
+        "originalPrice": 177.0,
+        "discount": null
+      },
+      {
+        "name": "- 20%",
+        "currentPrice": 65.0,
+        "originalPrice": 65.0,
+        "discount": null
+      },
+      {
+        "name": "Malteada vainilla",
+        "currentPrice": 65.0,
+        "originalPrice": 65.0,
+        "discount": null
+      },
+      {
+        "name": "Malteada con base de helado de leche con sabor vainilla",
+        "currentPrice": 65.0,
+        "originalPrice": 65.0,
+        "discount": null
+      },
+      {
+        "name": "Malteada chocolate",
+        "currentPrice": 65.0,
+        "originalPrice": 65.0,
+        "discount": null
+      },
+      {
+        "name": "Malteada con base de helado de leche con jarabe de chocolate.",
+        "currentPrice": 65.0,
+        "originalPrice": 65.0,
+        "discount": null
+      },
+      {
+        "name": "Malteada fresa",
+        "currentPrice": 65.0,
+        "originalPrice": 65.0,
+        "discount": null
+      },
+      {
+        "name": "Bebidas",
+        "currentPrice": 65.0,
+        "originalPrice": 65.0,
+        "discount": null
+      },
+      {
+        "name": "Coca-Cola Zero mediana",
+        "currentPrice": 65.0,
+        "originalPrice": 65.0,
+        "discount": null
+      },
+      {
+        "name": "Coca Zero Mediana",
+        "currentPrice": 65.0,
+        "originalPrice": 65.0,
+        "discount": null
+      },
+      {
+        "name": "Coca-Cola mediana",
+        "currentPrice": 65.0,
+        "originalPrice": 65.0,
+        "discount": null
+      },
+      {
+        "name": "Refréscate con Coca Cola de 21 oz",
+        "currentPrice": 65.0,
+        "originalPrice": 65.0,
+        "discount": null
+      },
+      {
+        "name": "Fanta sin azúcar mediana",
+        "currentPrice": 65.0,
+        "originalPrice": 65.0,
+        "discount": null
+      },
+      {
+        "name": "Refréscate con Fanta de Naranja de 21 oz",
+        "currentPrice": 25.0,
+        "originalPrice": 25.0,
+        "discount": null
+      },
+      {
+        "name": "Café Americano mediano",
+        "currentPrice": 25.0,
+        "originalPrice": 25.0,
+        "discount": null
+      },
+      {
+        "name": "Disfruta de un café recien preparado.",
+        "currentPrice": 65.0,
+        "originalPrice": 65.0,
+        "discount": null
+      },
+      {
+        "name": "Mundet sin azúcar mediano",
+        "currentPrice": 65.0,
+        "originalPrice": 65.0,
+        "discount": null
+      },
+      {
+        "name": "Refréscate con Sidral Mundet Sin Azúcar de 21 oz",
+        "currentPrice": 39.0,
+        "originalPrice": 39.0,
+        "discount": null
+      },
+      {
+        "name": "Jugo Del Valle Manzana Pet",
+        "currentPrice": 39.0,
+        "originalPrice": 39.0,
+        "discount": null
+      },
+      {
+        "name": "Disfruta de nuestro Jugo del Valle de Manzana 100% natural de 237ml",
+        "currentPrice": 39.0,
+        "originalPrice": 39.0,
+        "discount": null
+      },
+      {
+        "name": "Jugo Del Valle Naranja Pet",
+        "currentPrice": 39.0,
+        "originalPrice": 39.0,
+        "discount": null
+      },
+      {
+        "name": "Disfruta de nuestro Jugo del Valle de Naranja 100% natural de 237ml",
+        "currentPrice": 35.0,
+        "originalPrice": 35.0,
+        "discount": null
+      },
+      {
+        "name": "Café Americano grande",
+        "currentPrice": 35.0,
+        "originalPrice": 35.0,
+        "discount": null
+      },
+      {
+        "name": "Disfruta de un café recien preparado.",
+        "currentPrice": 65.0,
+        "originalPrice": 65.0,
+        "discount": null
+      },
+      {
+        "name": "Sprite sin azúcar mediano",
+        "currentPrice": 65.0,
+        "originalPrice": 65.0,
+        "discount": null
+      },
+      {
+        "name": "Sprite Sin Azúcar Mediano",
+        "currentPrice": 65.0,
+        "originalPrice": 65.0,
+        "discount": null
+      },
+      {
+        "name": "Malteada vainilla",
+        "currentPrice": 65.0,
+        "originalPrice": 65.0,
+        "discount": null
+      },
+      {
+        "name": "Malteada con base de helado de leche con sabor vainilla",
+        "currentPrice": 65.0,
+        "originalPrice": 65.0,
+        "discount": null
+      },
+      {
+        "name": "Malteada fresa",
+        "currentPrice": 65.0,
+        "originalPrice": 65.0,
+        "discount": null
+      },
+      {
+        "name": "Malteada con base de helado de leche con jarabe de fresa.",
+        "currentPrice": 65.0,
+        "originalPrice": 65.0,
+        "discount": null
+      },
+      {
+        "name": "Malteada chocolate",
+        "currentPrice": 65.0,
+        "originalPrice": 65.0,
+        "discount": null
+      }
+    ],
+    "error": null
+  },
+  {
+    "platform": "ubereats",
+    "zone_id": "condesa",
+    "zone_name": "Condesa",
+    "zone_type": "premium",
+    "address": "Av. Tamaulipas 100, Condesa, CDMX",
+    "store": null,
+    "delivery_info": {},
+    "products": [],
+    "error": "Could not set address"
+  },
+  {
+    "platform": "ubereats",
+    "zone_id": "roma_norte",
+    "zone_name": "Roma Norte",
+    "zone_type": "premium",
+    "address": "Calle Orizaba 150, Roma Norte, CDMX",
+    "store": null,
+    "delivery_info": {},
+    "products": [],
+    "error": "Could not set address"
+  },
+  {
+    "platform": "ubereats",
+    "zone_id": "lomas",
+    "zone_name": "Lomas de Chapultepec",
+    "zone_type": "premium",
+    "address": "Paseo de la Reforma 1000, Lomas de Chapultepec, CDMX",
+    "store": null,
+    "delivery_info": {},
+    "products": [],
+    "error": "Could not set address"
+  },
+  {
+    "platform": "ubereats",
+    "zone_id": "interlomas",
+    "zone_name": "Interlomas",
+    "zone_type": "premium",
+    "address": "Av. Jesús del Monte 200, Interlomas, Huixquilucan",
+    "store": null,
+    "delivery_info": {},
+    "products": [],
+    "error": "Could not set address"
+  },
+  {
+    "platform": "ubereats",
+    "zone_id": "pedregal",
+    "zone_name": "Pedregal",
+    "zone_type": "premium",
+    "address": "Av. de las Fuentes 200, Pedregal de San Ángel, CDMX",
+    "store": null,
+    "delivery_info": {},
+    "products": [],
+    "error": "Could not set address"
+  },
+  {
+    "platform": "ubereats",
+    "zone_id": "santa_fe",
+    "zone_name": "Santa Fe",
+    "zone_type": "premium",
+    "address": "Av. Vasco de Quiroga 3800, Santa Fe, CDMX",
+    "store": null,
+    "delivery_info": {},
+    "products": [],
+    "error": "Could not set address"
+  },
+  {
+    "platform": "ubereats",
+    "zone_id": "satelite",
+    "zone_name": "Ciudad Satélite",
+    "zone_type": "premium",
+    "address": "Circuito Centro Comercial 100, Ciudad Satélite, Naucalpan",
+    "store": null,
+    "delivery_info": {},
+    "products": [],
+    "error": "Could not set address"
+  },
+  {
+    "platform": "ubereats",
+    "zone_id": "del_valle",
+    "zone_name": "Del Valle",
+    "zone_type": "media",
+    "address": "Av. Universidad 1000, Del Valle, CDMX",
+    "store": null,
+    "delivery_info": {},
+    "products": [],
+    "error": "Could not set address"
+  },
+  {
+    "platform": "ubereats",
+    "zone_id": "coyoacan",
+    "zone_name": "Coyoacán",
+    "zone_type": "media",
+    "address": "Av. Universidad 3000, Coyoacán, CDMX",
+    "store": null,
+    "delivery_info": {},
+    "products": [],
+    "error": "Could not set address"
+  },
+  {
+    "platform": "ubereats",
+    "zone_id": "tlalpan",
+    "zone_name": "Tlalpan",
+    "zone_type": "media",
+    "address": "Calzada de Tlalpan 4000, Tlalpan, CDMX",
+    "store": null,
+    "delivery_info": {},
+    "products": [],
+    "error": "Could not set address"
+  },
+  {
+    "platform": "ubereats",
+    "zone_id": "narvarte",
+    "zone_name": "Narvarte",
+    "zone_type": "media",
+    "address": "Av. Diagonal de San Antonio 1000, Narvarte, CDMX",
+    "store": null,
+    "delivery_info": {},
+    "products": [],
+    "error": "Could not set address"
+  },
+  {
+    "platform": "ubereats",
+    "zone_id": "napoles",
+    "zone_name": "Nápoles",
+    "zone_type": "media",
+    "address": "Av. Insurgentes Sur 1400, Nápoles, CDMX",
+    "store": null,
+    "delivery_info": {},
+    "products": [],
+    "error": "Could not set address"
+  },
+  {
+    "platform": "ubereats",
+    "zone_id": "mixcoac",
+    "zone_name": "Mixcoac",
+    "zone_type": "media",
+    "address": "Av. Revolución 1200, Mixcoac, CDMX",
+    "store": null,
+    "delivery_info": {},
+    "products": [],
+    "error": "Could not set address"
+  },
+  {
+    "platform": "ubereats",
+    "zone_id": "azcapotzalco",
+    "zone_name": "Azcapotzalco",
+    "zone_type": "media",
+    "address": "Av. Azcapotzalco 500, Azcapotzalco, CDMX",
+    "store": null,
+    "delivery_info": {},
+    "products": [],
+    "error": "Could not set address"
+  },
+  {
+    "platform": "ubereats",
+    "zone_id": "lindavista",
+    "zone_name": "Lindavista",
+    "zone_type": "media",
+    "address": "Av. Montevideo 400, Lindavista, CDMX",
+    "store": null,
+    "delivery_info": {},
+    "products": [],
+    "error": "Could not set address"
+  },
+  {
+    "platform": "ubereats",
+    "zone_id": "san_pedro_pinos",
+    "zone_name": "San Pedro de los Pinos",
+    "zone_type": "media",
+    "address": "Av. Patriotismo 229, San Pedro de los Pinos, CDMX",
+    "store": null,
+    "delivery_info": {},
+    "products": [],
+    "error": "Could not set address"
+  },
+  {
+    "platform": "ubereats",
+    "zone_id": "iztapalapa",
+    "zone_name": "Iztapalapa",
+    "zone_type": "popular",
+    "address": "Calzada Ermita Iztapalapa 3000, Iztapalapa, CDMX",
+    "store": null,
+    "delivery_info": {},
+    "products": [],
+    "error": "Could not set address"
+  },
+  {
+    "platform": "ubereats",
+    "zone_id": "naucalpan",
+    "zone_name": "Naucalpan",
+    "zone_type": "popular",
+    "address": "Av. Lomas Verdes 750, Naucalpan, Edo. Méx.",
+    "store": null,
+    "delivery_info": {},
+    "products": [],
+    "error": "Could not set address"
+  },
+  {
+    "platform": "ubereats",
+    "zone_id": "ecatepec",
+    "zone_name": "Ecatepec",
+    "zone_type": "popular",
+    "address": "Av. Central 500, Ecatepec, Edo. Méx.",
+    "store": null,
+    "delivery_info": {},
+    "products": [],
+    "error": "Could not set address"
+  },
+  {
+    "platform": "ubereats",
+    "zone_id": "gustavo_madero",
+    "zone_name": "Gustavo A. Madero",
+    "zone_type": "popular",
+    "address": "Av. Insurgentes Norte 1500, Gustavo A. Madero, CDMX",
+    "store": null,
+    "delivery_info": {},
+    "products": [],
+    "error": "Could not set address"
+  },
+  {
+    "platform": "ubereats",
+    "zone_id": "tlahuac",
+    "zone_name": "Tláhuac",
+    "zone_type": "popular",
+    "address": "Calzada Tláhuac 3500, Tláhuac, CDMX",
+    "store": null,
+    "delivery_info": {},
+    "products": [],
+    "error": "Could not set address"
+  },
+  {
+    "platform": "ubereats",
+    "zone_id": "xochimilco",
+    "zone_name": "Xochimilco",
+    "zone_type": "popular",
+    "address": "Av. Guadalupe Ramírez 200, Xochimilco, CDMX",
+    "store": null,
+    "delivery_info": {},
+    "products": [],
+    "error": "Could not set address"
+  },
+  {
+    "platform": "ubereats",
+    "zone_id": "iztacalco",
+    "zone_name": "Iztacalco",
+    "zone_type": "popular",
+    "address": "Calzada de la Viga 1000, Iztacalco, CDMX",
+    "store": null,
+    "delivery_info": {},
+    "products": [],
+    "error": "Could not set address"
+  },
+  {
+    "platform": "ubereats",
+    "zone_id": "nezahualcoyotl",
+    "zone_name": "Nezahualcóyotl",
+    "zone_type": "popular",
+    "address": "Av. Chimalhuacán 200, Nezahualcóyotl, Edo. Méx.",
+    "store": null,
+    "delivery_info": {},
+    "products": [],
+    "error": "Could not set address"
+  }
+]
