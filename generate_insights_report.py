@@ -232,15 +232,16 @@ print(f"  Saved: {chart5_path}")
 print("\n[6] Generating Markdown report...")
 
 # Calculate key metrics
-rappi_avg = df[df["platform"] == "rappi"]["current_price"].mean()
-ue_avg = df[df["platform"] == "ubereats"]["current_price"].mean()
-price_diff_pct = ((rappi_avg - ue_avg) / ue_avg * 100)
+rappi_avg = df[df["platform"] == "rappi"]["current_price"].mean() if "rappi" in df["platform"].values else 0
+ue_avg = df[df["platform"] == "ubereats"]["current_price"].mean() if "ubereats" in df["platform"].values else 0
+price_diff_pct = ((rappi_avg - ue_avg) / ue_avg * 100) if ue_avg > 0 and rappi_avg > 0 else 0
 
 # Products where each platform is cheaper
 rappi_prices = df[df["platform"] == "rappi"].groupby("product_id")["current_price"].mean()
 ue_prices = df[df["platform"] == "ubereats"].groupby("product_id")["current_price"].mean()
-rappi_cheaper = (rappi_prices < ue_prices).sum()
-ue_cheaper = (ue_prices < rappi_prices).sum()
+common = rappi_prices.index.intersection(ue_prices.index)
+rappi_cheaper = (rappi_prices[common] < ue_prices[common]).sum() if len(common) > 0 else 0
+ue_cheaper = (ue_prices[common] < rappi_prices[common]).sum() if len(common) > 0 else 0
 
 # Zones
 n_zones = df["zone_name"].nunique()
@@ -253,9 +254,10 @@ rappi_stores = df[df["platform"] == "rappi"]["store"].nunique()
 ue_stores = df[df["platform"] == "ubereats"]["store"].nunique()
 
 # Discount analysis
-rappi_discount_rate = df[df["platform"] == "rappi"]["has_discount"].mean() * 100
-ue_discount_rate = df[df["platform"] == "ubereats"]["has_discount"].mean() * 100
-rappi_avg_discount = df[(df["platform"] == "rappi") & (df["discount_pct"] > 0)]["discount_pct"].mean()
+rappi_discount_rate = df[df["platform"] == "rappi"]["has_discount"].mean() * 100 if "rappi" in df["platform"].values else 0
+ue_discount_rate = df[df["platform"] == "ubereats"]["has_discount"].mean() * 100 if "ubereats" in df["platform"].values else 0
+rappi_discounted = df[(df["platform"] == "rappi") & (df["discount_pct"] > 0)]
+rappi_avg_discount = rappi_discounted["discount_pct"].mean() if len(rappi_discounted) > 0 else 0
 
 report = f"""# Informe de Competitive Intelligence — Delivery CDMX
 
